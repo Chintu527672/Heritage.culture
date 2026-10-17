@@ -1,7 +1,7 @@
 
 import './Login.css';
 import { useState } from 'react';
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://heritage-culture-7wvf.onrender.com';
 
 function Login() {
   const [isLogin, setIsLogin] = useState(true);
